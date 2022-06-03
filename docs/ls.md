@@ -6,7 +6,7 @@
 
 1. Lista de archivos en un directorio.
 ```bash
-$ ls
+ls
 ```
 
 Output:
@@ -19,7 +19,7 @@ README.md
 
 2. Lista de archivos en un directorio.
 ```bash
-$ ls Downloads
+ls Downloads
 ```
 
 Output:
@@ -31,7 +31,7 @@ images.jpg
 
 3. Lista de archivos en home
 ```bash
-$ ls ~/
+ls ~/
 ```
 
 Output:
@@ -47,7 +47,7 @@ Pictures
 
 4. Listar solo directorios
 ```bash
-$ ls -d */
+ls -d */
 ```
 
 Ejemplo:
@@ -61,18 +61,17 @@ Pictures/
 
 5. Listar archivos con subdirectorios
 ```bash
-$ ls *
+ls *
 ```
 
 6. Listar archivos con sus tamaños
 ```bash
-$ ls -s
+ls -s
 ```
-
 
 7. Listar archivos con formato largo
 ```bash
-$ ls -l
+ls -l
 ```
 
 Output:
@@ -88,7 +87,7 @@ total 0
 
 8. Listar archivos con formato largo y tamaño
 ```bash
-$ ls -lh
+ls -lh
 ```
 
 ```bash
@@ -103,7 +102,7 @@ total 0
 
 9. Listar archivos incluyendo archivos ocultos
 ```bash
-$ ls -a
+ls -a
 ```
 
 Output:
@@ -117,7 +116,7 @@ README.md
 
 10. Listar archivos incluyendo archivos ocultos y directorios
 ```bash
-$ ls -al
+ls -al
 ```
 
 Output:
@@ -134,7 +133,7 @@ total 0
 
 11. Listar y ordenar archivos por tamaño y tiempo
 ```bash
-$ ls -t
+ls -t
 ```
 
 output:
@@ -147,7 +146,7 @@ images.jpg
 
 12. Listar archivos y ordenar por tamaño
 ```bash
-$ ls -S
+ls -S
 ```
 
 Output:
